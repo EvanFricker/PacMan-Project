@@ -5,6 +5,8 @@ import functions as f
 pygame.init()
 
 screen = pygame.display.set_mode([settings.WIDTH, settings.HEIGHT])
+pygame.display.set_caption('Pac Man')
+
 timer = pygame.time.Clock()
 
 run = True
